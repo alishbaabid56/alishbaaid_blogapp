@@ -94,7 +94,7 @@ export default function PostList() {
           >
             <Link href={`/PostList/${post.id}`}>
               <div className="cursor-pointer">
-                <img
+                <Image
                   src={post.image}
                   alt={post.title}
                   className="h-48 sm:h-56 w-full object-cover border-b-2 border-gray-300 text-3xl"

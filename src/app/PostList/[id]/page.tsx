@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import CommentsSection from "../../../components/CommentSection";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -73,7 +74,7 @@ export default function Post({ params }: PostProps) {
         <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 text-center">{post.title}</h1>
 
         <div className="flex justify-center">
-          <img
+          <Image
             src={post.image}
             alt={post.title}
             className="mt-2 w-full max-w-[800px] h-60 object-cover rounded"

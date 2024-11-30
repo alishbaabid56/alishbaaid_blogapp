@@ -68,7 +68,7 @@ const Footer = () => {
           {/* Column 3: Contact Information */}
           <div>
             <h3 className="text-xl font-semibold text-white mb-4">Contact Info</h3>
-            <p className="text-gray-400 text-sm mb-4">We'd love to hear from you! Feel free to reach out with any questions or inquiries.</p>
+            <p className="text-gray-400 text-sm mb-4">We love to hear from you! Feel free to reach out with any questions or inquiries.</p>
             <ul className="text-gray-400 text-sm">
               <li className="mb-2">📍 123 Travel St, Wanderlust City</li>
               <li className="mb-2">📞 +123 456 7890</li>
